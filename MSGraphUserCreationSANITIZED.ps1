@@ -62,8 +62,6 @@ foreach($entry in $listItemID){
         
     }
     
-
-    write $path
     
     switch ($site) #switch statement to set users site specific info, this should really be different classes we inherit but this was written a while ago and just has never been updated
     {
